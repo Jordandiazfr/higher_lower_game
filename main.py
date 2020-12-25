@@ -47,6 +47,7 @@ while not game_over:
 
     winner = compare(A_, B_, choice)
     clear()
+    print(logo)
     if winner == 0:
         print(SEP)
         print("You losee, final score: %d" %(score))
